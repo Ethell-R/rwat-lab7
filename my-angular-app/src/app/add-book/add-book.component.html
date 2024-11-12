@@ -1,0 +1,7 @@
+<form (ngSubmit)="addBook()">
+    <input [(ngModel)]="newBook.title" name="title" placeholder="Title" required />
+    <input [(ngModel)]="newBook.author" name="author" placeholder="Author" required />
+    <textarea [(ngModel)]="newBook.description" name="description" placeholder="Description"></textarea>
+    <button type="submit">Add Book</button>
+  </form>
+  

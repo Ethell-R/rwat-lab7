@@ -1,0 +1,9 @@
+<input type="text" [(ngModel)]="searchTerm" placeholder="Search by title" />
+<button (click)="searchBooks()">Search</button>
+
+<ul>
+  <li *ngFor="let book of books">
+    <a [routerLink]="['/book', book.id]">{{ book.title }}</a> by {{ book.author }}
+  </li>
+</ul>
+<a routerLink="/add-book" class="button-link">Add New Book</a>

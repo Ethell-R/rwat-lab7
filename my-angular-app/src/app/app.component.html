@@ -1,0 +1,19 @@
+<div class="wrapper">
+  <div class="header">
+    <h1>{{ title }}</h1>
+    <p>Manage your library easily and efficiently!</p>
+  </div>
+
+  <nav class="navbar">
+    <a routerLink="/books" routerLinkActive="active">Home</a>
+    <a routerLink="/add-book">Add New Book</a>
+  </nav>
+
+  <div class="content">
+    <router-outlet></router-outlet>
+  </div>
+
+  <footer>
+    <p>&copy; {{ currentYear }} BookHub | Isadora Valentini</p>
+  </footer>
+</div>

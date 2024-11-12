@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+  
+li {
+  margin: 10px 0;
+  padding: 10px;
+  background-color: #f5f5dc; /* Beige background for items */
+  border-radius: 4px;
+  border: 1px solid #3b593b;
+  font-family: 'Calibri', sans-serif;
+}
+  
+a {
+  color: #2e4d27; /* Dark green links */
+  text-decoration: none;
+}
+  
+a:hover {
+  text-decoration: underline;
+  color: #3b593b;
+}
+  
+/* Styles for the "Add New Book" link to look like a button */
+.button-link {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: #2e4d27; 
+  color: #f5f5dc;
+  border: 2px solid #2e4d27; 
+  border-radius: 8px; /* Slightly rounded edges */
+  font-size: 1.1rem;
+  font-weight: bold;
+  font-family: 'Calibri', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.button-link:hover {
+  background-color: #3b593b; 
+  color: #ffffff; 
+}

@@ -1,0 +1,78 @@
+/* Basic reset and font setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Calibri', sans-serif;
+  background-color: #f5f5dc; 
+  color: #2e4d27; 
+}
+
+/* Wrapper to make content stretch to push footer to the bottom */
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+/* Header styles */
+.header {
+  text-align: center;
+  padding: 20px;
+  background-color: #2e4d27;
+  color: #f5f5dc;
+}
+
+/* Navbar styles */
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: #3b593b;
+  padding: 10px;
+}
+
+.navbar a {
+  color: #f5f5dc;
+  text-decoration: none;
+  padding: 8px 16px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.navbar a:hover {
+  background-color: #2e4d27;
+  border-radius: 4px;
+}
+
+.navbar .active {
+  font-weight: bold;
+  background-color: #2e4d27;
+  border-radius: 4px;
+}
+
+/* Content area */
+.content {
+  flex: 1; /* Makes content take up remaining space to push footer down */
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: white;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer styles */
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #2e4d27;
+  color: #f5f5dc;
+  font-size: 0.875rem;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}

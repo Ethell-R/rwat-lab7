@@ -1,0 +1,22 @@
+{
+  "books": [
+    {
+      "id": "1",
+      "title": "Angular for Beginners",
+      "author": "John Doe",
+      "description": "An introduction to Angular."
+    },
+    {
+      "id": "2",
+      "title": "Advanced Angular",
+      "author": "Jane Smith",
+      "description": "Deep dive into Angular features."
+    },
+    {
+      "id": 1731378308037,
+      "title": "Don't Make Me Think, Revisited: A Common Sense Approach to Web Usability",
+      "author": "Steve Krug",
+      "description": ""
+    }
+  ]
+}

@@ -1,0 +1,62 @@
+/* Form container styling */
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  background-color: #f5f5dc; /* Beige background */
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  max-width: 900px; /* Increased width for more spacious look */
+  margin: 20px auto; /* Centered with more margin */
+}
+  
+/* Input fields and textarea styling */
+form input,
+form textarea {
+  width: 100%;
+  padding: 15px;
+  margin: 10px 0; 
+  border: 1px solid #3b593b; 
+  border-radius: 6px;
+  background-color: #fff; 
+  font-size: 1.1rem;
+  color: #2e4d27; 
+  font-family: 'Calibri', sans-serif;
+}
+  
+/* Textarea specific styling */
+form textarea {
+  height: 150px; 
+  resize: vertical; 
+}
+  
+/* Button styling */
+form button {
+  padding: 15px;
+  width: 100%;
+  max-width: 300px; 
+  margin-top: 20px;
+  background-color: #2e4d27; 
+  color: #f5f5dc;
+  border: none;
+  border-radius: 6px;
+  font-size: 1.1rem;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+  
+form button:hover {
+  background-color: #3b593b; 
+}
+  
+/* Success message styling (if applicable) */
+.success-message {
+  color: #2e4d27;
+  font-size: 1.2rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+  
